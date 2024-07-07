@@ -1,0 +1,130 @@
+.products{
+    background-color: #BAC7BE;
+    padding-bottom: 40px;
+  }
+  
+  .subtitle{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .products__search{
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0 3vw;
+    margin: 0 auto 4vh;
+    box-sizing: border-box;
+    border: none;
+    display: block;
+  }
+  
+  .products__search:focus{
+    outline: none;
+  }
+  
+  .products__subtitle{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .products__list{
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  .products__notfind{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+.menu-nav{
+    background-color: #778472;
+  }
+  
+  .menu-nav__title{
+    margin: 0;
+    color: #f1f1f1;
+    font-size: 1.3rem;
+    padding: 15px 4vw 0;
+  }
+  
+  .menu-nav__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .menu-nav__item{
+    width: 100%;
+    text-align: center;
+    margin: 0 1vw;
+  }
+  
+  .menu-nav__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f1f1f1;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .menu-nav__link:hover{
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 768px) {
+      .menu-nav__title{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 2.5rem;
+    }
+  
+    .menu-nav__link{
+      font-size: 1.8rem;
+    }
+
+    .products__search{
+        margin: 0;
+        padding: 0;
+      }
+    
+      .products{
+        padding: 20px 0;
+        min-height: 50vh;
+      }
+    
+      .products__search{
+        margin: 0 auto 40px;
+        padding: 0 2vw;
+        font-size: 1.8rem
+      }
+    
+      .products__list {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* Cria cinco colunas com largura igual */
+        gap: 20px; /* Espaçamento entre os itens */
+      }
+    
+      .products__notfind{
+        font-size: 3rem;
+        text-align: center;
+        margin: 5vh auto;
+      }
+      
+      .subtitle{
+        font-size: 3rem;
+      }
+    
+      .products__subtitle{
+        font-size: 2.5rem;
+      }
+  }

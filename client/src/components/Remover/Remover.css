@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    .main__remove{
+    margin: 15vh 0;
+  }
+  
+  #product-remove{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .remove__label{
+    font-size: 3rem;
+  }
+
+  .select__products{
+    margin: 5vh auto;
+    font-size: 2rem;
+  }
+
+  .submit__btn{
+    font-size: 2rem;
+    width: 20%;
+    display: block;
+    margin: 2vh auto 4vh;
+    border-radius: 10px;
+    border: 1px solid #BAC7BE;
+    cursor: pointer;
+  }
+
+  .submit__btn:hover{
+    background-color: #BAC7BE;
+  }
+
+  .remove__success{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .remove__option{
+    text-align: center;
+  }
+  
+  #products{
+    font-size: 2.5rem;
+  }
+}

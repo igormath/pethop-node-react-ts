@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+    .main__att{
+    padding: 3vh 0;
+  }
+
+  #product-att{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .select__products{
+    margin: 5vh auto;
+    font-size: 2rem;
+  }
+
+  .input__name, .input__price{
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 2vh auto;
+    padding-left: 1vw;
+    width: 60%;
+    display: block;
+    height: 5vh;
+  }
+
+  .input__name:focus, .input__price:focus{
+    outline: none;
+  }
+
+  .submit__btn{
+    font-size: 2.5rem;
+    width: 20%;
+    height: 5vh;
+    display: block;
+    margin: 2vh auto 4vh;
+    border-radius: 10px;
+    border: 1px solid #BAC7BE;
+    cursor: pointer;
+  }
+
+  .submit__btn:hover{
+    background-color: #BAC7BE;
+  }
+
+  .label__att{
+    font-size: 3rem;
+  }
+
+  .first{
+    font-size: 3.5rem;
+  }
+
+  .remove__success{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .att__option{
+    text-align: center;
+  }
+
+  #products{
+    font-size: 2.5rem;
+  }
+}
